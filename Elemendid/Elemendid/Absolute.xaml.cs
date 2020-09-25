@@ -43,7 +43,6 @@ namespace Elemendid
             AbsoluteLayout.SetLayoutFlags(btn3, AbsoluteLayoutFlags.PositionProportional);
             AbsoluteLayout.SetLayoutBounds(btn4, new Rectangle(0.9, 0.05, 100, 60));//координаты
             AbsoluteLayout.SetLayoutFlags(btn4, AbsoluteLayoutFlags.PositionProportional);
-
             AbsoluteLayout.SetLayoutBounds(redbox, new Rectangle(0.4, 0.4, 400, 500));
             AbsoluteLayout.SetLayoutFlags(redbox, AbsoluteLayoutFlags.PositionProportional);
 
