@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Elemendid.Stack">
+    <ContentPage.Content>
+        <StackLayout>
+        <StackLayout>
+            <Button x:Name="btn" 
+                    Text="Vajuta siia!" 
+                    Clicked="Btn_Clicked" 
+                    CornerRadius="0" 
+                    BackgroundColor="#17940D" 
+                    BorderColor="#AC2424" 
+                    BorderWidth="5" 
+                    FontSize="100" FontAttributes="Bold"
+                    />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="lbl1" 
+                   Text="Esimene" 
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"
+                   TextColor="DarkViolet"
+                   FontSize="Large"
+                   FontAttributes="Italic"
+                   FontFamily="Freestyle Scripts" 
+                   IsVisible="False"/>
+            <Label Text="Teine"
+                   VerticalOptions="End"
+                   HorizontalOptions="Start"
+                   TextColor="Aqua"
+                   FontSize="Medium"/>
+            <Label Text="Kolmas"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Fill"
+                   TextColor="DarkOliveGreen"
+                   FontSize="30"/>
+        </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
